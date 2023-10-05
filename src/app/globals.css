@@ -4,7 +4,7 @@
 
 
 .bg-landing {
-  background: url(../public/background-page.jpg) no-repeat center center;
+  background: url(../../public/background-page.jpg) no-repeat center center;
   background-size: cover;
   position: relative;
   z-index: 1000;
@@ -12,14 +12,14 @@
 
 
 .bg-about {
-  background: url(../public/about.jpg) no-repeat center center;
+  background: url(../../public/about.jpg) no-repeat center center;
   background-size: contain;
   position: relative;
   z-index: 1000;
 }
 
 .bg-services {
-  background: url(../public/services-2.jpg) no-repeat bottom;
+  background: url(../../public/services-2.jpg) no-repeat bottom;
   background-size: cover;
   position: relative;
   z-index: 1000;

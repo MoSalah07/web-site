@@ -44,6 +44,8 @@ function Banner() {
                   2000,
                   "A Mobile Developer",
                   2000,
+                  "A Mern Stack",
+                  2000,
                 ]}
                 speed={50}
                 repeat={Infinity}
@@ -68,7 +70,14 @@ function Banner() {
               viewport={{ once: false, amount: 0.7 }}
               className="flex max-w-max gap-x-6 items-center mb-12 mt-8 mx-auto lg:mx-0"
             >
-              <button className="btn btn-lg outline-none">Contact Me</button>
+              <Link
+                href={`/Mo-Salah-CV.pdf`}
+                download={true}
+                target="_blank"
+                className="btn btn-lg outline-none flex items-center justify-center"
+              >
+                Download CV
+              </Link>
               <Link href={`/`} className="text-gradient btn-link capitalize">
                 my portfolio
               </Link>

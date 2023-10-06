@@ -2,17 +2,37 @@
 @tailwind components;
 @tailwind utilities;
 
-
 .bg-landing {
   /* background: url(../../public/background-page.jpg) no-repeat center center; */
   /* background-size: cover; */
-  background: #6441A5;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #2a0845, #6441A5);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #2a0845, #6441A5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #6441a5; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to left,
+    #2a0845,
+    #6441a5
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to left,
+    #2a0845,
+    #6441a5
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   position: relative;
   z-index: 1000;
 }
 
+.bg-header {
+  background: #6441a5; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to left,
+    #2a0845,
+    #6441a5
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to left,
+    #2a0845,
+    #6441a5
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
 
 .bg-about {
   background: url(../../public/about.jpg) no-repeat center center;
@@ -37,13 +57,24 @@
 }
 
 .btn {
-  background: linear-gradient(92.23deg, #ff56f6 21.43%, #b936ee 50.63%, #3bace2 100%, #406aff 117.04%);
+  background: linear-gradient(
+    92.23deg,
+    #ff56f6 21.43%,
+    #b936ee 50.63%,
+    #3bace2 100%,
+    #406aff 117.04%
+  );
   box-shadow: 0px 4.42184px 107.23px rgba(255, 86, 246, 0.51);
 }
 
-
 .btn:hover {
-  background: linear-gradient(92.23deg, #406aff 21.43%, #3bace2 50.63%, #b936ee 100%, #ff56f6 117.04%);
+  background: linear-gradient(
+    92.23deg,
+    #406aff 21.43%,
+    #3bace2 50.63%,
+    #b936ee 100%,
+    #ff56f6 117.04%
+  );
 }
 
 .active {
@@ -54,18 +85,29 @@
 
 .gradient,
 .active {
-  background: linear-gradient(92.23deg, #406aff 21.43%, #3bace2 50.63%, #b936ee 100%, #ff56f6 117.04%);
+  background: linear-gradient(
+    92.23deg,
+    #406aff 21.43%,
+    #3bace2 50.63%,
+    #b936ee 100%,
+    #ff56f6 117.04%
+  );
 }
 
 .text-logo {
-  background: linear-gradient(92.23deg, #406aff 21.43%, #3bace2 50.63%, #b936ee 100%, #ff56f6 117.04%);
+  background: linear-gradient(
+    92.23deg,
+    #406aff 21.43%,
+    #3bace2 50.63%,
+    #b936ee 100%,
+    #ff56f6 117.04%
+  );
   text-transform: uppercase;
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-weight: bold
+  font-weight: bold;
 }
-
 
 @layer base {
   body {
@@ -90,7 +132,7 @@
     @apply text-base;
   }
   .text-gradient {
-    @apply bg-gradient-to-r text-transparent bg-clip-text from-[#42A6E3] to-[#ff56f6] font-bold font-primary hover:from-[#FF56F6] hover:to-[#42A6E3]
+    @apply bg-gradient-to-r text-transparent bg-clip-text from-[#42A6E3] to-[#ff56f6] font-bold font-primary hover:from-[#FF56F6] hover:to-[#42A6E3];
   }
   .section {
     @apply py-8 lg:py-24 lg:h-screen flex items-center;

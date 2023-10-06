@@ -12,6 +12,7 @@ function Navbar() {
       <div className="container mx-auto">
         <div className="w-full bg-black/20 h-[96px] backdrop-blur-2xl rounded-full max-w-[460px] mx-auto px-5 flex justify-between items-center text-2xl text-white/50">
           <Link
+            href="#"
             to="home"
             activeClass="active"
             smooth={true}
@@ -22,6 +23,7 @@ function Navbar() {
             <BiHomeAlt />
           </Link>
           <Link
+            href="#"
             to="about"
             activeClass="active"
             smooth={true}
@@ -31,6 +33,7 @@ function Navbar() {
             <BiUser />
           </Link>
           <Link
+            href="#"
             to="services"
             activeClass="active"
             smooth={true}
@@ -40,6 +43,7 @@ function Navbar() {
             <BsClipboardData />
           </Link>
           <Link
+            href="#"
             to="work"
             activeClass="active"
             smooth={true}
@@ -49,6 +53,7 @@ function Navbar() {
             <BsBriefcase />
           </Link>
           <Link
+            href="#"
             to="contact"
             activeClass="active"
             smooth={true}

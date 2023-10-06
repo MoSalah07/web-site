@@ -15,7 +15,7 @@ function About() {
   });
 
   return (
-    <section id="about" className="section md:mt-20 lg:mt-32 overflow-hidden" ref={ref}>
+    <section id="about" className="section md:mt-20 lg:mt-32 overflow-hidden relative z-[1000]" ref={ref}>
       <div className="container mx-auto h-screen flex flex-col lg:flex-row items-center lg:gap-[4%]">
         {/*bg Img */}
         <motion.div

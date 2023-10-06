@@ -7,6 +7,7 @@ import { motion } from "framer-motion";
 import { feadIn } from "../libs/variants.js";
 import Image from "next/image";
 import Link from "next/link";
+import ContainerTsparticles from "@/components/tsparticles/ContainerTsparticles";
 
 function Banner() {
   return (
@@ -14,7 +15,8 @@ function Banner() {
       id="home"
       className="min-h-[85vh] lg:min-h-[78vh] flex flex-col justify-center pt-44 sm:pt-56"
     >
-      <div className="container mx-auto ">
+      <ContainerTsparticles margin={true} />
+      <div className="container mx-auto relative z-[1000]">
         <div className="flex flex-col lg:flex-row items-center justify-between">
           <div className=" basis-[60%] lg:order-first order-last md:mt-0 mt-8">
             <motion.h1
